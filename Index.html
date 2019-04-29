@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather API</title>
+    
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    
+    <script src="Scipt.js"></script>
+    <script src="second.js"></script>
+    <link rel="stylesheet" href="Main.css">
+
+   <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAP9RAeG2ANQbml-SUR77sykzsaH930lvw&libraries=geometry,places">
+    </script> -->
+
+</head>
+
+<body>
+    <div class="weather-container">
+        <img src="Weatherlogo.jpg" id="img"  alt="WeatherLogo" height="70px">
+        <h2>Weather API</h2>
+
+        <h4>Input name of the city followed by a "," and the two letter abbreviation of the country in lowercase</h4>
+        <p>Example: Nashville,us</p>
+        <h4>Find countries abbreviations&nbsp<a href="https://www.willmaster.com/blog/misc/country-name-abbreviation.php" target="_blank"; >Here</a></h4>
+        
+        
+        City:&nbsp<input type="text" id="mytext" /> &nbsp;
+        <button onclick="myFunction()">Submit</button>
+         <p id="demo"></p>
+
+    <!---<p>
+        City:<input id="city" value="London"></input>
+        <br/>
+        <button id="submit" onclick="myFunction()">Submit</button>
+    </p>-->
+        <aside class="aside">
+            <h3>Verifying</h3>
+            <p class="latitude">Lat:&nbsp;</p>
+            <p class="longitude">Long:&nbsp;</p>
+            <p>Example: 37.87,-87.99</p>
+           Latt & Long:&nbsp<input type="text" id="text1" /> &nbsp; <button onclick="theFunction()">Submit</button>
+            <p class="C">City:&nbsp;</p>
+            <p class="state">State:&nbsp;</p>
+            <p class="county">County:&nbsp;</p>
+            <p class="country">Country:&nbsp;</p>
+        </aside>
+
+        <p class="city"></p>
+       <img class="icon">
+        <p class="weather"></p>
+        <p class="temp"></p>
+        <p class="max">Maximum Temperature:&nbsp; </p>
+        <p class="min">Minimum Temperature:&nbsp;</p>
+        <p id="symbol"></p>
+        
+        <p>This API only provides the temperature in Celcius of 200,000 cities  <br/> 
+        If there are multiple cities with the same name in a country, the API will choose one, but it will not 
+        provide which one it choose</p>
+
+    </div>
+
+</body>
+
+</html>

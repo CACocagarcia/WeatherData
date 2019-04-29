@@ -1,0 +1,51 @@
+
+body{
+    background-color: #ccc;
+}
+
+.img{
+    margin:0;
+    float: left;
+}
+
+header h2{
+    float: right;
+}
+
+.weather-container{
+    text-align: center;
+}
+
+.weather{
+    font-size: 22px;
+    margin: 0;
+}
+
+.temp{
+    font-size: 60px;
+    margin:0;
+    font-weight: bold;
+}
+
+.city{
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.max{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.min{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.aside{
+    float: right;
+}
+
