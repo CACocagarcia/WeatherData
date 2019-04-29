@@ -5,11 +5,11 @@ var x = document.getElementById("mytext").value;
 
 var api_path = 'http://api.openweathermap.org/data/2.5/weather?q=';
 //var city = 'Nashville';
-var apikey = '&appid=ea10f8e97e2b086922cf5e4bc9ffb90e';
+var apikey =
 var units = '&units=metric';
 var url = api_path + x + apikey + units;
 
-//$.getJSON("http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=ea10f8e97e2b086922cf5e4bc9ffb90e&units=metric", 
+//$.getJSON("http://api.openweathermap.org/data/2.5/weather?q=London,uk&"apikey"&units=metric", 
 //function (data) {
     //console.log(data); 
 
