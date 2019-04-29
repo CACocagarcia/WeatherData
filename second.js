@@ -2,7 +2,7 @@ function theFunction(){
     var xx = document.getElementById("text1").value;
 
     var first = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=';
-    var last = '&location_type=ROOFTOP&result_type=street_address&key=AIzaSyAVoWGj-5xiBoCXyDcxmgr-2RESzzJSlTY';
+    var last = '&location_type=ROOFTOP&result_type=street_address&key=';
     var url2 = first + xx + last ; 
 
     $.getJSON(url2,function (data){
